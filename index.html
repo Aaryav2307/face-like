@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Face-Like</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+</head>
+
+<body class="main-content">
+    <center>
+        <div class="container">
+            <h3>Face-Like</h3>
+        </div>
+        <br><br>
+        <h4>The following model requires the images listed bellow click to download</h4>
+        <b>
+            <hr>
+            <hr>
+            <button type="button" id="download">Aaryav</button>
+            <hr>
+            <hr>
+            <button type="button" id="download2">Ahaan</button>
+            <hr>
+            <hr>
+        </b>
+        <h4>Webcam View</h4>
+        <br>
+        <div id="img_webcam">
+            <img class="img-responsive" id="img_webcam"
+            src="https://www.freeiconspng.com/thumbs/camera-icon/camera-icon-png-camera-icon-png-transparent-16.png">
+        </div>
+        <hr>
+        <hr>
+        <div id="img_container">
+        <img class="img-responsive" id="img_result"
+            src="https://www.freeiconspng.com/thumbs/camera-icon/camera-icon-png-camera-icon-png-transparent-16.png">
+        </div>
+        <hr>
+        <hr>
+        <button id="Test" onclick="test()" type="button">'Test your model'</button>
+
+        <br><br>
+
+        <button id="click" onclick="takesnapshot()" type="button">'Take Snapshot'</button>
+
+        <hr><hr>
+        <label id="obj">Face:<span id="obj_lab"></span></label>
+        <hr><hr>
+        <label id="acc">Accuracy:<span id="acc_lab"></span></label>
+
+        <script src="main.js"></script>
+</body>
+
+</html>

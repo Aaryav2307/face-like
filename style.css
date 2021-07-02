@@ -1,0 +1,28 @@
+button{
+    background-color: khaki;
+    border-color: burlywood;
+    color: brown;
+    width: 100%;
+}
+
+body{
+    font-family: monospace;
+    background-color: burlywood;
+    color: brown;
+}
+
+hr{
+    border-color:khaki;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    background-color:khaki;
+    border-radius: 25px;
+    border: 5px dashed blanchedalmond;
+}
+#click, #Test{
+    width: 150px;
+}
+
